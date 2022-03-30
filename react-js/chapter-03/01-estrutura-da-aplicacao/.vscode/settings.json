@@ -3,6 +3,5 @@
     "source.fixAll": true
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
-  "stylelint.validate": ["css", "scss"]
+  "editor.formatOnSave": true
 }
