@@ -2,7 +2,7 @@ import styles from './Post.module.css';
 
 export function Post() {
   return (
-    <article className={styles.article}>
+    <article className={styles.post}>
       <header>
         <div className={styles.author}>
           <img
@@ -26,12 +26,10 @@ export function Post() {
           eligendi suscipit fuga commodi nostrum minus dolores itaque.
         </p>
         <p>
-          <a href="">Lorem, ipsum dolor.</a>
+          Link: <a href="">Lorem, ipsum dolor.</a>
         </p>
         <p>
-          <a href="">#Lorem</a>
-          <a href="">#Lorem</a>
-          <a href="">#Lorem</a>
+          <a href="">#Lorem</a> <a href="">#Lorem</a> <a href="">#Lorem</a>
         </p>
       </div>
     </article>
