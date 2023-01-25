@@ -12,6 +12,12 @@ export const styles = StyleSheet.create({
     fontWeight: 'bold',
     marginTop: 48,
   },
+  form: {
+    width: '100%',
+    flexDirection: 'row',
+    marginTop: 36,
+    marginBottom: 42,
+  },
   eventDate: {
     color: '#6b6b6b',
     fontSize: 16,
@@ -22,6 +28,8 @@ export const styles = StyleSheet.create({
     borderRadius: 5,
     color: '#fff',
     padding: 16,
+    flex: 1,
+    marginRight: 12,
   },
   buttonText: {
     color: '#fff',
